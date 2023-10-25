@@ -1,0 +1,147 @@
+body {
+    background-image: url("Netflix\ BG.jpg");
+    display: flex;
+    opacity: calc(0.8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-flow: wrap;
+    margin: auto 0px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-left: 25px;
+}
+
+
+form {
+    width: 430px;
+    height: 600px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 3px;
+    display: flex;
+    margin: 50px auto;
+    margin-right: 35%;
+    flex-flow: wrap;
+    justify-content: center;
+    font-size-adjust: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+}
+
+div {
+    margin: 15px;
+}
+
+#inp {
+    width: 80%;
+    height: 50px;
+    margin: 10px;
+    margin-right: -15px;
+    margin-left: 25px;
+    padding-left: 25px;
+    display: inline-block;
+    font-size: large;
+    color: azure;
+    background-color: #393838;
+    opacity: calc(10.0);
+    border: none;
+    border-radius: 5px;
+}
+
+#ice {
+    width: 15px;
+    height: 15px;
+}
+
+button {
+    width: 87%;
+    height: 50px;
+    margin-top: 45px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.text {
+    margin: 70px 25px 10px 25px;
+}
+
+font {
+    margin: 0 0 0 25px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bnav {
+    display: flex;
+    margin-left: 20px;
+    font-size: small;
+    margin-top: 5px;
+
+}
+
+.bnav a {
+    color: #4d48de;
+    margin-left: 150px;
+}
+
+.container {
+    text-align: center;
+    width: 950px;
+    margin: auto 350px;
+    font-size: 22px;
+}
+
+footer {
+    background-color: black;
+    opacity: calc(1.99);
+    width: 100vw;
+    height: 35vh;
+    color: #757575;
+}
+
+p {
+    display: inline-block;
+    margin: 37px;
+    float: left;
+}
+
+ul {
+    display: flex;
+    width: 700px;
+}
+
+.container a {
+    width: 70px;
+}
+
+li {
+    width: 100px;
+    display: flex;
+    margin-right: 70px;
+    flex-wrap: wrap;
+}
+
+select {
+    background-color: black;
+    color: #757575;
+    font-size: large;
+    float: left;
+    width: 80px;
+    height: 50px;
+    margin: 10px 50px;
+    /* padding:12px 26px 12px 50px; */
+
+}
